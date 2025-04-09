@@ -1,7 +1,8 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/JovkJbhN)
 # Trabajo Práctico 2: Desarrollo Guiado por Pruebas (TDD) - Detector de Palíndromos
 
 ## Identificación del Alumno
-**Nombre y Apellido:** [Completar con tu nombre y apellido]
+**Nombre y Apellido:** Jimena Sofía Beltran Lazo
 
 **Nota:** Este trabajo práctico es de carácter individual. Cada alumno debe realizar su propia implementación y no se permite el trabajo en grupo.
 
@@ -16,17 +17,17 @@ El trabajo se realizará en dos fases, siguiendo las prácticas de TDD:
 
 ### Fase 1: Implementación de Pruebas
 En esta primera fase, deberás:
-1. Crear los archivos de prueba necesarios
-2. Implementar los casos de prueba para la detección de palíndromos
+1. Crear los archivos de prueba necesarios.
+2. Implementar los casos de prueba para la detección de palíndromos.
 3. Asegurarte de que las pruebas fallen inicialmente (rojo)
-4. Hacer commit y push de solo los archivos de prueba
+4. Hacer commit y push de solo los archivos de prueba.
 
 ### Fase 2: Implementación de la Solución
 En la segunda fase, deberás:
-1. Implementar las funciones necesarias para pasar las pruebas
-2. Refactorizar el código si es necesario
+1. Implementar las funciones necesarias para pasar las pruebas.
+2. Refactorizar el código si es necesario.
 3. Asegurarte de que todas las pruebas pasen (verde)
-4. Hacer commit y push de la implementación
+4. Hacer commit y push de la implementación.
 
 ## Requisitos
 - Python 3.x
@@ -34,7 +35,7 @@ En la segunda fase, deberás:
 
 ## Reglas de Palíndromos
 Para la detección de palíndromos, deberás seguir estas reglas:
-- Un palíndromo es una palabra o frase que se lee igual de izquierda a derecha que de derecha a izquierda
+- Un palíndromo es una palabra o frase que se lee igual de izquierda a derecha que de derecha a izquierda.
 - Se deben ignorar:
   - Espacios en blanco
   - Signos de puntuación
@@ -173,9 +174,9 @@ Para ejecutar el programa y las pruebas, sigue estos pasos:
    ```
 
 3. **Uso del programa**:
-   - El programa aceptará entrada por consola
-   - Ingresa una palabra o frase para verificar si es palíndromo
-   - Presiona Ctrl+C para salir del programa
+   - El programa aceptará entrada por consola.
+   - Ingresa una palabra o frase para verificar si es palíndromo.
+   - Presiona Ctrl+C para salir del programa.
 
 4. **Ejemplo de uso**:
    ```bash
