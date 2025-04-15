@@ -43,7 +43,7 @@ Para la detección de palíndromos, deberás seguir estas reglas:
   - "Anita lava la tina"
   - "A man, a plan, a canal: Panama"
   - "Madam, I'm Adam"
-  - "race a car"
+  - "race car"
 
 ## Estructura del Proyecto
 ```
@@ -181,8 +181,8 @@ Para ejecutar el programa y las pruebas, sigue estos pasos:
    ```bash
    $ python src/palindrome.py
    Ingrese una palabra o frase: Anita lava la tina
-   "Anita lava la tina" es un palíndromo
+   "Anita lava la tina" es un palíndromo.
    
    Ingrese una palabra o frase: Hola mundo
-   "Hola mundo" no es un palíndromo
+   "Hola mundo" no es un palíndromo.
    ```
