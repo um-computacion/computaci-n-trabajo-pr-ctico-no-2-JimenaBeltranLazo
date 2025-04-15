@@ -17,5 +17,18 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(is_palindrome("reconocer"))
         self.assertTrue(is_palindrome("neuquen"))
 
+    def test_phrase_palindromes(self):
+        self.assertTrue(is_palindrome("A man, a plan, a canal: Panama"))
+        self.assertTrue(is_palindrome("Was it a car or a cat I saw?"))
+        self.assertTrue(is_palindrome("No lemon, no melon"))
+        self.assertTrue(is_palindrome("Anita lava la tina"))
+        self.assertTrue(is_palindrome("Madam, I'm Adam"))
+        self.assertTrue(is_palindrome("Dammit I'm mad"))
+        self.assertTrue(is_palindrome("Borrow or rob?"))
+        self.assertTrue(is_palindrome("Was it a car or a cat I saw?"))
+        self.assertTrue(is_palindrome("Top spot"))
+        self.assertTrue(is_palindrome("God save Eva's dog"))
+        self.assertTrue(is_palindrome("No, it is open on one position"))
+
 if __name__ == '__main__':
     unittest.main()
