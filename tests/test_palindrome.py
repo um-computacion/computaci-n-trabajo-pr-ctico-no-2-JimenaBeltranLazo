@@ -30,5 +30,19 @@ class TestPalindrome(unittest.TestCase):
         self.assertTrue(is_palindrome("God save Eva's dog"))
         self.assertTrue(is_palindrome("No, it is open on one position"))
 
+    def test_non_palindromes(self):
+        self.assertFalse(is_palindrome("hello"))
+        self.assertFalse(is_palindrome("python"))
+        self.assertFalse(is_palindrome("This is not a palindrome"))
+        self.assertFalse(is_palindrome("jimena"))
+        self.assertFalse(is_palindrome("computacion"))
+        self.assertFalse(is_palindrome("github"))
+        self.assertFalse(is_palindrome("tests"))
+        self.assertFalse(is_palindrome("code"))
+        self.assertFalse(is_palindrome("error"))
+        self.assertFalse(is_palindrome("issue"))
+        self.assertFalse(is_palindrome("milestones"))
+        self.assertFalse(is_palindrome("labels"))
+
 if __name__ == '__main__':
     unittest.main()
