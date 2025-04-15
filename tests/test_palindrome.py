@@ -1,3 +1,5 @@
+#FASE 1: Implementación de Pruebas "Detector Palíndromos"
+
 import unittest
 from src.palindrome import is_palindrome
 
